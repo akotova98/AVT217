@@ -1,0 +1,52 @@
+@charset "UTF-8";
+/* CSS Document */
+
+	
+	body{
+		
+	background: lightblue;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	width:960px;
+	margin: 0 auto;
+}
+
+h1{
+	font-family: "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	text-align: center;
+	margin-top: 10px;
+}
+
+h2 {
+	text-align: center;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	border-top: 1px solid #4F4949;
+	padding-top: 30px;
+	margin-top: 30px;
+	color:#1D1E40; 
+	
+}
+
+em {
+	color: #1160DB;
+}
+
+a {color:#24133E}
+
+a:link {
+	color: #9a1899;
+	font-weight: bold;
+	
+}
+
+a:visited {
+	color: #518f0d;
+	
+}
+
+a:hover {
+	color: blue;
+}
+
+a:active {
+	color: #fbf703;
+}
