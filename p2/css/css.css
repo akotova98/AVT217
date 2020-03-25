@@ -1,4 +1,4 @@
-@charset "utf-8";
+margin-top:400px;@charset "utf-8";
 /* CSS Document */
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
@@ -112,7 +112,7 @@ nav li{
 	margin-left:100px;
 	font-family: "Binary ITC";
 	font-weight: 200;
-	line-height:47px;
+	line-height:5px;
 	color:#ff0000;
 }
 
@@ -141,9 +141,6 @@ nav li{
 	transition: 1.5s;
 }
 
-footer{
-	clear:both;
-}
 
 #logo{
 	margin-top:-200px;
@@ -180,7 +177,6 @@ article{
 	padding-right:10px;
 	width:940px;
 	float:right;
-	height: 794px;
 }
 
 
@@ -203,15 +199,6 @@ section{
 	width:306px;
 	margin-top:20px;
 	margin-left:0px;
-}
-
-#mockup {
-	float:left;
-	width:auto;
-	margin-left:547px;
-	margin-top:-790px;
-	box-shadow:0px 5px 5px rgba(0, 0, 0, .5)
-	
 }
 
 #leftbox {
@@ -289,6 +276,7 @@ section{
 #redboxtext {
 	background-image: url("../img/Ourstorywall.jpg");
 	margin-left:-2px;
+	margin-top:auto;
 	width:306px; height:283px;
 	font-family: 'Binary ITC';
 	color: #FFFFFF;
@@ -299,6 +287,10 @@ section{
 	box-shadow:1px 2px 5px rgba(0, 0, 0, .5)
 }
 
+#button {
+	line-height:3px;
+}
+
 #button h2 {
 	margin-left:35px;
 	background-color:none;
@@ -306,7 +298,7 @@ section{
 	padding-top:0px;
 	padding-bottom:0px;
 	font-size:50px;
-	margin-top:-200px;
+	margin-top:-230px;
 	font-family:'Binary ITC';
 	font-weight: 200;
 	transition: 0.8s;
@@ -366,27 +358,18 @@ section{
 	text-shadow:0 0 15px #FFFFFF;
 }
 
-div.transbox p {
-  background-color: #FF0000;
-  opacity: 0.7;
-  margin-right:5px;
-  padding-top:5px; 
-
-}
-
 #info {
 	float:left;
-	width:auto;
-	margin-left:-10px;
-	margin-top:-385px;
-	line-height:20px;
+	width:502px;
+	margin-left:10px;
+	margin-top:30px;
 }
 #info h2{
 	font-family:'Binary ITC';
 	font-weight: 400;
 	font-size:39px;
 	color:#ff0000;
-	line-height:40px;
+	line-height:10px;
 	padding-top:5px;
 }
 
@@ -395,7 +378,6 @@ div.transbox p {
 	font-weight: 400;
 	font-size:39px;
 	color:#000000;
-	line-height:160px;
 	margin-top:80px;
 }
 
@@ -404,26 +386,31 @@ div.transbox p {
 	font-weight: 400;
 	font-size:25px;
 	color:#ff0000;
-	line-height:140px;
-	margin-top:-120px; 
+	margin-top:10px; 
 }
 
 #info p{
 	font-family:"Calibri Regular";
 	font-size:25px;
-	padding-bottom:5px;
-	line-height:35px;
-	color:white;
-	margin-left:-2px;
+	line-height:25px;
+	color:black;
 	padding-left:3px;
 }
+
+#mockup {
+	float:left;
+	margin-left:536px;
+	margin-top:-450px;
+	box-shadow:0px 5px 5px rgba(0, 0, 0, .5)	
+}
+
 footer {
 	clear:both;
 	float:left;
 	background-color:black;
 	height:115px;
 	width:960px;
-	margin-top:10px;
+	margin-top:80px;
 	padding-top:15px;
 }
 #topleft {
@@ -433,9 +420,8 @@ footer {
 	font-size:14px;
 	line-height:18px;
 	float:left;
-	margin-top:-16px;
-	margin-left:-5px;
-	
+	margin-top:-45px;
+	margin-left:-35px;
 }
 
 #topleft h1{
@@ -447,7 +433,7 @@ footer {
 	font-weight: normal;
 	padding-top:30px;
 	margin-top:-47px;
-	margin-left:80px;
+	margin-left:120px;
 }
 
 #topleft h2{
@@ -459,7 +445,7 @@ footer {
 	font-weight: normal;
 	padding-top:30px;
 	margin-top:-47px;
-	margin-left:1px;
+	margin-left:40px;
 }
 
 .copyright {
@@ -470,7 +456,7 @@ footer {
 	float:left;
 	font-weight: normal;
 	padding-top:30px;
-	margin-top:15px;
+	margin-top:0px;
 	margin-left:0px;
 }
 
@@ -481,7 +467,8 @@ footer {
 	float:right;
 	padding-right:20px;
 	font-size:14px;
-	margin-right:-5px;
+	margin-right:-1px;
+	margin-top:-12px;
 }
 footer a:link {
 	color:white; 
