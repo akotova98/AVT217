@@ -1,4 +1,4 @@
-margin-top:400px;@charset "utf-8";
+@charset "utf-8";
 /* CSS Document */
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
@@ -112,7 +112,7 @@ nav li{
 	margin-left:100px;
 	font-family: "Binary ITC";
 	font-weight: 200;
-	line-height:5px;
+	line-height:47px;
 	color:#ff0000;
 }
 
@@ -141,8 +141,12 @@ nav li{
 	transition: 1.5s;
 }
 
+footer{
+	clear:both;
+}
 
 #logo{
+	width:400px;
 	margin-top:-200px;
 	margin-left:-25px;
 	cursor:pointer;
@@ -201,6 +205,13 @@ section{
 	margin-left:0px;
 }
 
+#mockup {
+	float:left;
+	margin-left:10px;
+	margin-top: 30px;
+	box-shadow:0px 5px 5px rgba(0, 0, 0, .5);
+}
+
 #leftbox {
 	float:left;
 	background-image:url("../img/Specials.jpg");
@@ -239,7 +250,6 @@ section{
 
 
 .boxtext {
-	/*visibility:hidden---->*/
 	opacity:0;
 	padding-left:10px;
 	padding-top:10px;
@@ -276,7 +286,6 @@ section{
 #redboxtext {
 	background-image: url("../img/Ourstorywall.jpg");
 	margin-left:-2px;
-	margin-top:auto;
 	width:306px; height:283px;
 	font-family: 'Binary ITC';
 	color: #FFFFFF;
@@ -287,10 +296,6 @@ section{
 	box-shadow:1px 2px 5px rgba(0, 0, 0, .5)
 }
 
-#button {
-	line-height:3px;
-}
-
 #button h2 {
 	margin-left:35px;
 	background-color:none;
@@ -298,7 +303,7 @@ section{
 	padding-top:0px;
 	padding-bottom:0px;
 	font-size:50px;
-	margin-top:-230px;
+	margin-top:-200px;
 	font-family:'Binary ITC';
 	font-weight: 200;
 	transition: 0.8s;
@@ -360,16 +365,18 @@ section{
 
 #info {
 	float:left;
-	width:502px;
 	margin-left:10px;
 	margin-top:30px;
+	line-height:20px;
+	width:502px;
+
 }
 #info h2{
 	font-family:'Binary ITC';
 	font-weight: 400;
 	font-size:39px;
 	color:#ff0000;
-	line-height:10px;
+	line-height:40px;
 	padding-top:5px;
 }
 
@@ -378,7 +385,7 @@ section{
 	font-weight: 400;
 	font-size:39px;
 	color:#000000;
-	margin-top:80px;
+	margin-top:10px;
 }
 
 #info h4{
@@ -392,83 +399,70 @@ section{
 #info p{
 	font-family:"Calibri Regular";
 	font-size:25px;
-	line-height:25px;
+	padding-bottom:5px;
+	line-height:35px;
 	color:black;
-	padding-left:3px;
 }
-
-#mockup {
-	float:left;
-	margin-left:536px;
-	margin-top:-450px;
-	box-shadow:0px 5px 5px rgba(0, 0, 0, .5)	
-}
-
 footer {
 	clear:both;
 	float:left;
 	background-color:black;
-	height:115px;
 	width:960px;
-	margin-top:80px;
-	padding-top:15px;
+	margin-top:120px;
+	padding-top:20px;
 }
+
+
 #topleft {
 	font-family:'Calibri Regular';
+	width:400px;
 	color:white;
 	padding-left:20px;
 	font-size:14px;
-	line-height:18px;
-	float:left;
-	margin-top:-45px;
-	margin-left:-35px;
+	float:left; 
+	line-height:10px;
+	margin-left:20px;
 }
 
 #topleft h1{
 	font-family:'Calibri Regular';
 	color:white;
 	font-size:14px;
-	line-height:18px;
 	float:left;
 	font-weight: normal;
-	padding-top:30px;
-	margin-top:-47px;
-	margin-left:120px;
+	margin-left:80px;
+	margin-top:-8.5px;
+	
 }
 
 #topleft h2{
 	font-family:'Calibri Regular';
 	color:white;
 	font-size:14px;
-	line-height:18px;
 	float:left;
-	font-weight: normal;
-	padding-top:30px;
-	margin-top:-47px;
-	margin-left:40px;
+	font-weight:normal;
+	margin-left:1px;
+	padding-bottom:10px;
 }
 
 .copyright {
 	font-family:'Calibri Regular';
-	color:white;
-	font-size:14px;
-	line-height:18px;
+    color:darkgrey;
+	font-size:12px;
+	line-height:12px;
 	float:left;
 	font-weight: normal;
-	padding-top:30px;
-	margin-top:0px;
-	margin-left:0px;
+	margin-top:10px;
+	padding-bottom:10px;
 }
 
 #footerright {
-	width:920px;
+	width:500px;
 	color:rgba(255,255,255,1.00);
-	text-align: right;
+	text-align:right;
 	float:right;
 	padding-right:20px;
 	font-size:14px;
-	margin-right:-1px;
-	margin-top:-12px;
 }
 footer a:link {
 	color:white; 
@@ -489,7 +483,6 @@ footer a:hover {
 .media {
 	position:absolute;
 	color:white;
-	margin-top:-5px;
 	margin-left:400px;
 	font-size:30px;
 	letter-spacing:5px;
