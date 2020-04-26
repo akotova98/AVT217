@@ -1,0 +1,531 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*Start global*/
+*{ 
+    margin: 0;
+    padding: 0;
+	box-sizing: border-box;
+}
+
+html{
+	font-size:10px;
+	font-family: 'Binary ITC', 'Gloss And Bloom', sans-serif;
+	color: white;
+}
+
+body{
+	width: 100%;
+	height: 100%;
+	background: url("../RefinedMockup/backgroundtexture.jpg") no-repeat center fixed;
+	background-size:cover;
+}
+
+a{
+	text-decoration:none;
+	color:white;
+}
+
+p{
+	font-size: 1.8rem;
+}
+
+img {
+	width: 100%;
+}
+
+/*End global*/
+
+
+/*Start header*/
+header{
+	width: 100%;
+	height: 100vh;
+}
+
+.top-nav{
+	width: 100%;
+	height:100px;
+	position:fixed;
+	top:0px;
+	text-align:right;
+	box-sizing: border-box;
+	transition:1.5s;
+	z-index: 1;
+}
+
+nav.blue {
+	background: #1c1563;
+	height:80px;
+	transition:1.5s;
+}
+
+.top-nav ul{
+	float:right;
+	margin:0;
+	padding:0;
+	margin-top:20px;
+	display:flex;
+}
+
+.top-nav ul li{
+	list-style: none;
+}
+
+.top-nav ul li a{
+	line-height:80px;
+	letter-spacing: 1px;
+	color:white;
+	padding: 5px 30px;
+	margin-right:70px;
+	text-decoration:none;
+	font-size:23px;
+	font-family:"Binary ITC", sans-serif;
+	transition: 1.5s;
+}
+
+
+.top-nav a:hover {
+	border: 3px solid white;
+	width:80%;
+	background:none;
+	cursor:pointer;
+	box-shadow:0 0 14px 3px #00baff;
+	text-shadow:0 0 12px #00baff;
+	transition:1.5s;
+	}
+
+.landing-text {
+    width:100%;
+    text-align: center;
+    padding-top:120px;
+}
+
+.landing-text img {
+	width:100%;
+}
+
+.text-wrapper {
+	width:100%;
+	position:inherit;
+	margin-top:-230px;
+}
+
+.text-wrapper h1 {
+	list-style:none;
+    left: 17%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 2rem;
+	color:#014689;
+	font-family:"Gloss And Bloom", sans-serif;
+	font-size:80px;
+}
+
+.text-wrapper h2 {
+	list-style:none;
+	display: flex;
+	justify-content: center;
+	align-items: right;
+	margin: 0 8rem;
+	color:#014689;
+	font-family:'Binary ITC'sans-serif;
+	padding-left:170px;
+	font-size:25px;
+}
+
+.nav-list{
+	color:white;
+	list-style:none;
+	width: 100%;
+	height: 100%;
+	margin-left:10px;
+	margin-top:-110px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.nav-list li {
+	margin: 2 2rem;
+	font-family:"Gloss And Bloom", sans-serif;
+	font-size:30px;
+	padding: 5rem;
+}
+
+.nav-list a:hover {
+	background:none;
+	cursor:pointer;
+	color: #0083ff;
+	transition:.8s;
+}
+
+html {
+	scroll-behavior:smooth;
+}
+
+/*End header*/
+
+
+/*Start about*/
+.about .container{
+	display:flex;
+	width:100%;
+	height:100%;
+	align-items:center;
+	margin-top:70px;
+}
+
+.about-heading{
+	width:100%;
+	text-align:center;
+	line-height:1.3;
+	margin-top:20px;
+	margin-bottom:6rem;
+}
+
+.about-heading h1 {
+	float:left;
+	font-size:5rem;
+	margin-left:140px;
+	margin-top:80px;
+	font-family: 'Binary ITC', sans-serif;
+}
+
+.about-heading h2 {
+	float:left;
+	font-size:8rem;
+	margin-top:170px;
+	text-transform: uppercase;
+	font-family: "Gloss And Bloom", sans-serif;
+	text-shadow:0 0 16px #007eff;
+}
+
+.about-heading p {
+	float:left;
+	font-size:23px;
+	margin-top:280px;
+	margin-left:-300px;
+	text-align:justify;
+	font-family: 'Binary ITC', sans-serif;
+}
+
+.profileimage {
+	float:right;
+	margin-left:800px;	
+	margin-top:-300px;
+}
+
+/*End about*/
+
+
+/*Start portfolio*/
+
+     .portflio {
+	    padding-top:25rem;
+}
+    
+    .portfolio-img {
+		align-content: center;
+		justify-content: center;
+		margin-left:20rem;
+			
+	}
+	
+	.textwithblurredbg {
+		width:350px;
+		height:219px;
+		display:inline-block;
+		margin:5px;
+		position: relative;
+		transition: .8s;
+		
+	}
+	
+	.textwithblurredbg img {
+		width:100%;
+		height:100%;
+		transition: .8s ease-out;
+	}
+	
+	.blurred:hover img{
+		filter:blur(2px) brightness(60%) grayscale(50%);
+		box-shadow: 0 0 14px 5px #0083ff;
+		transform: translate(0, -10px);
+		transition: .8s ease-out;
+	}
+	
+	.blurred :not(img){
+		position: absolute;
+		top:41%;
+		z-index: 1;
+		color:#0083ff;
+		font-family: 'Binary ITC', sans-serif;
+		font-size:23px;
+		text-align:center;
+		width:100%;
+		opacity:0;
+		transition: .8s;
+	}
+	
+	.blurred:hover :not(img){
+		transform: translate(0, -10px);
+		opacity:1;
+		
+	}
+
+.portflio h1, h2, h3 {
+	margin-bottom:2rem;
+}
+
+.portflio h1{
+	display:inline-block;
+	margin-left:32rem;
+	font-size:30px;
+	font-family: "Gloss And Bloom", sans-serif;
+	color:#0083ff;
+}
+
+.portflio h2{
+	display:inline-block;
+	margin-left:25rem;
+	font-size:30px;
+	font-family: "Gloss And Bloom", sans-serif;
+	color:#0083ff;
+}
+
+.portflio h3{
+	display:inline-block;
+	margin-left:23rem;
+	font-size:30px;
+	font-family: "Gloss And Bloom", sans-serif;
+	color:#0083ff;
+}
+
+/*End portfolio*/
+
+
+/*Start contact*/
+
+.contact{
+	background-color:none;
+	width:60%;
+	padding-top:2rem;
+	margin-top:40rem;
+}
+
+.section-heading h1 {
+	text-align: center;
+	padding-left:14rem;
+	font-size:30px;
+	font-family: "Gloss And Bloom", sans-serif;
+	color:#0083ff;
+}
+
+.section-heading h2 {
+	text-align:center;
+	font-size:15px; 
+	padding-left:14rem;
+	letter-spacing:2px;
+	font-family: 'Binary ITC', sans-serif;
+	color:white;
+}
+
+.resume {
+	padding-left:100rem;
+}
+
+.resumebutton {
+	float:right;
+	text-align:end;
+	margin-top:14px;
+	background-color:#014689;
+	font-family:"Binary ITC", sans-serif;
+	font-size:14px;
+	letter-spacing: 1px;
+	color:white;
+	padding: 1rem 2rem;
+	border-radius:.5rem;
+	cursor:pointer;
+	transition:.5s;
+	border: 1px solid white;
+	
+}
+
+.resumebutton:hover {
+	background-color:white;
+	color:#014689;
+}
+
+form{
+	width:60%;
+	margin: 0 25rem;
+	padding-bottom:5rem;
+}
+
+form label{
+	font-size:1.5rem;
+	letter-spacing: 1px;
+}
+
+input, textarea, placeholder{
+	width:100%;
+	padding:1rem;
+	margin-bottom:20px;
+	letter-spacing: 1px;
+	border: 1px solid white;
+	background-color:#014689;
+	font-family:'Cambria', 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif';
+	color:white;
+	
+}
+
+::placeholder {
+	letter-spacing: 1px;
+    color: darkgrey;
+}
+
+input[type="submit"]{
+	width:initial;
+	background-color:#014689;
+	font-family:"Binary ITC", sans-serif;
+	letter-spacing: 1px;
+	color:white;
+	padding: 1rem 2rem;
+	border-radius:.5rem;
+	cursor:pointer;
+	transition:.5s;
+}
+
+input[type="submit"]:hover{
+	background-color:white;
+	color:#014689;
+}
+
+.social-media {
+	
+}
+
+.social-media ul {
+	display:flex;
+	position: absolute;
+	margin-left:89rem;
+	margin-top:8rem;
+}
+
+.social-media ul i {
+	list-style: none;
+	margin:0 15px;
+}
+
+.social-media i {
+	font-size:5rem;
+	color:white;
+	transition:.5s;
+}
+
+.social-media ul i a {
+	position: relative;
+	display: block;
+	width:15px;
+	height:15px;
+}
+
+.social-media ul i:hover {
+	transform: translate(0, -10px);
+	color:#0083ff;
+}
+
+
+
+
+/*End contact*/
+
+
+/*Start footer*/
+
+.copyright{
+	width:100%;
+	text-align:left;
+	background-color:#1c1563;
+	padding: 2rem 5rem 2rem;
+}
+
+.backtotop{
+	font-size:16px;
+	padding-bottom:2rem;
+	transition:.8s;
+}
+
+.backtotop:hover {
+	background:none;
+	cursor:pointer;
+	text-shadow:0 0 8px #00baff;
+	transition:.8s;
+}
+
+.copyright p {
+	font-size:12px;
+	line-height:14px;
+	padding-top:1rem;
+}
+
+/*End footer*/
+
+
+
+
+
+
+
+
