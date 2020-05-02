@@ -565,7 +565,7 @@ input[type="submit"]:hover{
 
 .arrownext i.fas {
 	margin-left:126rem;
-	margin-top:-10.5rem;
+	margin-top:-11.5rem;
 	color:#0083ff;
 	transition:.5s ease-out;
 }
@@ -599,7 +599,7 @@ input[type="submit"]:hover{
 	position: relative;
 	flex-wrap: wrap;
 	justify-content: center;
-	padding-bottom:8.5rem;
+	padding-bottom:9.5rem;
 }
 
 .arrowstext li {
@@ -611,7 +611,7 @@ input[type="submit"]:hover{
 }
 
 .arrownameback {
-	margin-right:83rem;
+	margin-right:80rem;
 }
 
 
@@ -673,6 +673,58 @@ input[type="submit"]:hover{
 
 /*End Video Gallery*/
 
+
+/*Start Photos Gallery*/
+
+
+.photosheadingtext h1 {
+	text-align:left;
+	margin-top:20rem;
+	margin-left:28rem;
+	font-family: "Gloss And Bloom", sans-serif;
+	font-size:30px;
+	color:#014689;
+	width:150px;
+	position: relative;
+}
+
+.photosgallerytext p {
+	margin-top:5rem;
+	margin-left:19.3rem;
+	letter-spacing:1px;
+}
+
+.photosgallery {
+	display:flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	width:100%;
+	height:100%;
+	margin-top:3rem;
+	padding-bottom:20rem;
+}
+
+.photosgalleryimg {
+	padding: 0 20px 20px;
+}
+
+.photosgallery img {
+	width:350px;
+	height:219px;
+	transition:.8s;
+}
+
+.photosgallery img:hover {
+	filter:blur(2px) brightness(60%) grayscale(100%);
+	transform: translate(0, -10px);
+	transition: .8s ease-out;
+}
+
+
+
+/*End Photos Gallery*/
 
 
 /*Start footer*/
