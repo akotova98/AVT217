@@ -255,7 +255,8 @@ html {
 .about-heading h1 {
 	float:left;
 	font-size:5rem;
-	margin-left:140px;
+	margin-left:100px;
+	padding-left:3rem;
 	margin-top:80px;
 	font-family: 'Binary ITC', sans-serif;
 }
@@ -272,8 +273,9 @@ html {
 .about-heading p {
 	float:left;
 	font-size:23px;
+	letter-spacing:1px;
 	margin-top:280px;
-	margin-left:-300px;
+	margin-left:-305px;
 	text-align:justify;
 	font-family: 'Binary ITC', sans-serif;
 }
@@ -283,6 +285,45 @@ html {
 	margin-left:800px;	
 	margin-top:-300px;
 }
+
+.aboutquote {
+	font-size:25px;
+	margin-left:107rem;
+	letter-spacing:1px;
+	margin-top:-8rem;
+}
+
+.aboutquote h1 {
+	font-family: "Gloss And Bloom", sans-serif;
+	color:#0081ff;
+}
+
+.aboutquote h2 {
+	margin-left:8rem;
+	margin-top:-2.5rem;
+}
+
+.aboutquote h3 {
+	margin-top:-2rem;
+}
+
+.aboutquote h4 {
+	margin-top:-1.5rem;
+	margin-left:8.5rem;
+}
+
+.aboutquote h5 {
+	font-family: "Gloss And Bloom", sans-serif;
+	color:#0081ff;
+	margin-top:-2rem;
+	margin-left:16.5rem;
+}
+
+.aboutquote p {
+	margin-top:5rem;
+	margin-left:16.5rem;
+}
+
 
 /*End about*/
 
@@ -677,6 +718,16 @@ input[type="submit"]:hover{
 /*Start Photos Gallery*/
 
 
+.photosheadingimg img {
+	width:1128px;
+	margin-left:19.5rem;
+}
+
+.photosheadingtext {
+	margin-top:-68rem;
+	margin-left:3px;
+}
+
 .photosheadingtext h1 {
 	text-align:left;
 	margin-top:20rem;
@@ -689,7 +740,7 @@ input[type="submit"]:hover{
 }
 
 .photosgallerytext p {
-	margin-top:5rem;
+	margin-top:43rem;
 	margin-left:19.3rem;
 	letter-spacing:1px;
 }
@@ -702,7 +753,7 @@ input[type="submit"]:hover{
 	justify-content: center;
 	width:100%;
 	height:100%;
-	margin-top:3rem;
+	margin-top:5rem;
 	padding-bottom:20rem;
 }
 
@@ -733,26 +784,31 @@ input[type="submit"]:hover{
 	width:100%;
 	text-align:left;
 	background-color:#1c1563;
+	position:relative;
 	padding: 2rem 5rem 2rem;
 }
 
 .backtotop{
 	font-size:16px;
+	color:white;
 	padding-bottom:2rem;
-	transition:.8s;
+	position:absolute;
+	transition:.8s ease-out;
 }
 
 .backtotop:hover {
 	background:none;
 	cursor:pointer;
+	color:#54aafd;
 	text-shadow:0 0 8px #00baff;
-	transition:.8s;
+	transform: translate(0, -5px);
+	transition: .8s ease-out;
 }
 
 .copyright p {
 	font-size:12px;
 	line-height:14px;
-	padding-top:1rem;
+	padding-top:2.5rem;
 }
 
 /*End footer*/
