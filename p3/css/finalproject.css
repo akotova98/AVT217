@@ -420,13 +420,14 @@ html {
 	background-color:none;
 	width:60%;
 	padding-top:3rem;
-	margin-top:40rem;
+	margin-top:30rem;
 }
 
 .section-heading h1 {
 	text-align: center;
 	font-size:30px;
 	padding-right:31rem;
+	padding-bottom:1rem;
 	font-family: "Gloss And Bloom", sans-serif;
 	color:#0083ff;
 }
@@ -435,7 +436,16 @@ html {
 	text-align:center;
 	font-size:15px; 
 	padding-right:22rem;
-	padding-bottom:2rem;
+	letter-spacing:2px;
+	font-family: 'Binary ITC', sans-serif;
+	color:white;
+}
+
+.section-heading p {
+	text-align:center;
+	font-size:15px; 
+	padding-right:20rem;
+	padding-bottom:20rem;
 	letter-spacing:2px;
 	font-family: 'Binary ITC', sans-serif;
 	color:white;
@@ -448,7 +458,7 @@ html {
 .resumebutton {
 	float:right;
 	text-align:end;
-	margin-top:14px;
+	margin-top:-30rem;
 	background-color:#014689;
 	font-family:"Binary ITC", sans-serif;
 	font-size:14px;
@@ -467,56 +477,12 @@ html {
 	color:#014689;
 }
 
-form{
-	width:60%;
-	margin: 0 25rem;
-	padding-bottom:5rem;
-}
-
-form label{
-	font-size:1.5rem;
-	letter-spacing: 1px;
-}
-
-input, textarea, placeholder{
-	width:100%;
-	padding:1rem;
-	margin-bottom:20px;
-	letter-spacing: 1px;
-	border: 1px solid white;
-	background-color:#014689;
-	font-family:'Cambria', 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif';
-	color:white;
-	
-}
-
-::placeholder {
-	letter-spacing: 1px;
-    color: darkgrey;
-}
-
-input[type="submit"]{
-	width:initial;
-	background-color:#014689;
-	font-family:"Binary ITC", sans-serif;
-	letter-spacing: 1px;
-	color:white;
-	padding: 1rem 2rem;
-	border-radius:.5rem;
-	cursor:pointer;
-	transition:.5s;
-}
-
-input[type="submit"]:hover{
-	background-color:white;
-	color:#014689;
-}
 
 .social-media ul {
 	display:flex;
 	position: absolute;
 	margin-left:89rem;
-	margin-top:8rem;
+	margin-top:-23rem;
 }
 
 .social-media ul i {
@@ -541,8 +507,6 @@ input[type="submit"]:hover{
 	transform: translate(0, -10px);
 	color:#0083ff;
 }
-
-
 
 
 /*End contact*/
@@ -774,7 +738,6 @@ input[type="submit"]:hover{
 }
 
 
-
 /*End Photos Gallery*/
 
 
@@ -785,7 +748,7 @@ input[type="submit"]:hover{
 	text-align:left;
 	background-color:#1c1563;
 	position:relative;
-	padding: 2rem 5rem 2rem;
+	padding: 28px 5rem 7rem;
 }
 
 .backtotop{
@@ -820,3 +783,11 @@ input[type="submit"]:hover{
 
 
 
+/*Tablet View*/
+@media (min-width: 401px) and (max-width: 768px){
+}
+
+
+/*Mobile View*/
+@media (max-width: 400px){
+}
